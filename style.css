@@ -44,12 +44,12 @@ ul {
 .hero-flex img {
     height: 200px;
     width: 500px;
-    flex-shrink: 1;
+
 }
 
 .hero-main {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 
@@ -71,4 +71,112 @@ ul {
     padding: 8px 16px;
     border-radius: 8px;
     font-weight: 700;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.images img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.info-header {
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.imgK {
+    max-width: 100px;
+}
+
+.sec3 {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: #1F2937;
+    text-align: right;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+}
+
+.c2a {
+    background-color: #3882f6;
+    display: flex;
+    max-height: 100px;
+    max-width: 900px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px 40px 80px;
+    border-radius: 5px;
+    gap: 80px;
+}
+
+.sec4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.c2a-header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.c2a-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.c2a-button button {
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: center;
 }
