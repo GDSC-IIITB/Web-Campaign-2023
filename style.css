@@ -6,8 +6,6 @@ body {
 
 .sec1 {
     background-color: #1F2937;
-    padding-left: 260px;
-    padding-right: 260px;
     padding-top: 20px;
     padding-bottom: 35px;
 }
@@ -18,7 +16,8 @@ body {
 }
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 400px;
 }
 
 .right {
@@ -38,7 +37,8 @@ ul {
     margin-top: 70px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
 }
 
 .hero-flex img {
